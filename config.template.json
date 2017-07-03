@@ -1,0 +1,20 @@
+{
+  "default": {
+    "bitcoind": "http://username:password@127.0.0.1:43814",
+    "pricesUrl": "http://localhost:8080/rates.json",
+    "testnet": true,
+    "httpPort": 8080,
+    "httpsPort": 8081,
+    "sslKey": "./coinpunk.key",
+    "sslCert": "./coinpunk.crt"
+  },
+  "production": {
+    "bitcoind": "http://username:password@127.0.0.1:43814",
+    "pricesUrl": "http://localhost:8080/rates.json",
+    "testnet": false,
+    "httpPort": 8080,
+    "httpsPort": 4443,
+    "sslKey": "./coinpunk.key",
+    "sslCert": "./coinpunk.crt"
+  }
+}

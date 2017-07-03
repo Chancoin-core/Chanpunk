@@ -1,0 +1,7 @@
+config.json
+.DS_Store
+public/config.json
+coinpunk.key
+coinpunk.csr
+coinpunk.crt
+*.swp
